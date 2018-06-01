@@ -9,5 +9,5 @@ app.use('/data', (req, res) => {
 });
 
 app.listen(10011, () => {
-    console.log("server is being started at 10011");
+    console.log("server is  being started at 10011");
 });
