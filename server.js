@@ -3,7 +3,7 @@ app = express();
 
 
 app.use('/data', (req, res) => {
-    res.status(200)json({
+    res.status(200).json({
         message: "Successfully started server......."
     })
 });
