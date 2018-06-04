@@ -4,7 +4,7 @@ app = express();
 
 app.use('/data', (req, res) => {
     res.status(200).json({
-        message: "Successfully started server........"
+        message: "Successfully started server====........"
     })
 });
 
