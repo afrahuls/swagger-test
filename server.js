@@ -8,6 +8,6 @@ app.use('/data', (req, res) => {
     })
 });
 
-app.listen(10011, () => {
-    console.log("server started at 10011");
+app.listen(10012, () => {
+    console.log("server started at 10012");
 });
